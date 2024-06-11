@@ -9,7 +9,20 @@ header {
     background-color: #333;
     color: white;
     padding: 1rem;
-    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    flex-grow: 1; /* Permite que el título ocupe el espacio restante */
+    text-align: center; /* Centra el texto horizontalmente */
 }
 
 nav {
@@ -22,6 +35,8 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -32,11 +47,15 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 main {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 section {
@@ -60,7 +79,7 @@ section h2 {
 
 article {
     margin: 1rem 0;
-    width: calc(33.33% - 1rem); /* Tamaño igual para cada artículo con espacios entre ellos */
+    width: calc(33.33% - 1rem);
     box-sizing: border-box;
     padding: 0 0.5rem;
 }
@@ -70,10 +89,10 @@ article h3 {
 }
 
 article img {
-    width: 100%; 
-    height: auto; 
-    max-height: 300px; 
-    object-fit: contain; 
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
     border-radius: 5px;
 }
 
@@ -81,9 +100,9 @@ footer {
     background-color: #333;
     text-align: center;
     padding: 1rem;
-    color: white; 
+    color: white;
 }
 
 section#contacto {
-    color: #333; 
+    color: #333;
 }
