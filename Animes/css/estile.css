@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    background-color: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+article {
+    margin: 1rem 0;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+article img {
+    width: 100%; /* Ensures image width adapts to the container */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 300px; /* Sets a maximum height */
+    object-fit: contain; /* Ensures the whole image is visible */
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 1rem;
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+/* Letras oscuras en la sección de contacto */
+section#contacto {
+    color: #333; /* Cambia el color del texto a oscuro */
+}
